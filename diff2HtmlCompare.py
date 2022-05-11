@@ -149,7 +149,7 @@ class DiffHtmlFormatter(HtmlFormatter):
         self.diffs = diffs
         super(DiffHtmlFormatter, self).__init__(*args, **kwargs)
 
-    def wrap(self, source, outfile):
+    def wrap(self, source):
         return self._wrap_code(source)
 
     def getDiffLineNos(self):

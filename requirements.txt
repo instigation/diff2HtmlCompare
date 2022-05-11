@@ -1,2 +1,2 @@
-mistune
-pygments
+mistune==2.0.2
+Pygments==2.12.0
